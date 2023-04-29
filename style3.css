@@ -6,7 +6,6 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 ul{
@@ -132,24 +131,32 @@ a:hover{
     background: #959BA6;
  }
  .main{
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: space-around;
     padding: 20px;
     width: 100%;
  }
- .main-top{
-    display: flex;
-    width: 100%;
- }
+ 
  .main-skills{
+    box-sizing: border-box;
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: space-around;
+    margin-top: 200px;
+    align-items: flex-start;  
+
  }
  .main-skills .card{
+    position: absolute;
+ 
     width: 25%;
-    margin: 10px;
-    background:#9b6a6a;
+    margin: 20px;
+    background:#fff;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     box-shadow: 0 20px 35px rgb(0,0,0,0.1);
  }
@@ -158,8 +165,8 @@ a:hover{
     text-transform: capitalize;
  }
  .main-skills .card img{
-    width : 129px;
-    height: 67px;
+    width : 200px;
+    height: 87px;
     border-radius: 0%; 
  }
  .main-skills .card button{
@@ -172,6 +179,9 @@ a:hover{
  }
  .main-skills .card button:hover{
     background: #0F8693;
+    color: #fff;
  }
+ 
+
  
  
